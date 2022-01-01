@@ -13,10 +13,10 @@ english_max=df.English.max()  #English最大值
 
 Python_min=df.Python.min() #python最小值
 math_min=df.Math.min() #Math最小值
-english_min=df.English.min() #English最小值
+english_min=df.English.min() #English最小值  
 
 name=df.num
-students_scores=df.Math+df.Python+df.English #学生总成绩
+students_scores=df.Math+df.Python+df.English #学生总成绩     
 
 Python_avg=df.Python.mean()#python平均分
 math_avg=df.Math.mean() #Math平均分
@@ -30,7 +30,7 @@ def main():
             if choice==0:
                 answer=input('您确定要退出系统吗？y/n')
                 if answer=='y' or answer=='Y':
-                    print('谢谢您的使用！！')
+                    print('感谢您的使用！！')
                     break#退出系统
                 else:
                     continue
