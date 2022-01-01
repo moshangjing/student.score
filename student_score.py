@@ -1,3 +1,7 @@
+#第三组
+#组员是杨鑫鑫、汤卫生、王玮怡、李轲、熊慕宇
+#学生成绩分析系统（函数图像）
+
 import matplotlib.pyplot as plt
 import pandas as pd
 plt.rcParams['font.sans-serif']=['SimHei']
@@ -26,7 +30,7 @@ def main():
             if choice==0:
                 answer=input('您确定要退出系统吗？y/n')
                 if answer=='y' or answer=='Y':
-                    print('谢谢您的使用！！！')
+                    print('谢谢您的使用！！')
                     break#退出系统
                 else:
                     continue
