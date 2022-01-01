@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 plt.rcParams['font.sans-serif']=['SimHei']
 plt.rcParams['axes.unicode_minus']=False
-df=pd.read_csv('D:\\student_score.csv',encoding='GBK') #读取student_score.csv文件为DataFrame字符流
+df=pd.read_csv('student_score.csv',encoding='GBK') #读取student_score.csv文件为DataFrame字符流
 Python_max=df.Python.max() #python最大值
 math_max=df.Math.max()  #Math最大值
 english_max=df.English.max()  #English最大值
