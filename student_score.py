@@ -25,7 +25,7 @@ english_avg=df.English.mean() #English平均分
 def main():
     while True:
         menm()
-        choice=int(input('请选择'))
+        choice=int(input('请选择：'))
         if choice in [0,1,2,3,4]:
             if choice==0:
                 answer=input('您确定要退出系统吗？y/n')
