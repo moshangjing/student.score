@@ -11,9 +11,9 @@ Python_max=df.Python.max() #python最大值
 math_max=df.Math.max()  #Math最大值
 english_max=df.English.max()  #English最大值
 
-Python_min=df.Python.min() #python最小值
-math_min=df.Math.min() #Math最小值
+Python_min=df.Python.min() #python最小值小值
 english_min=df.English.min() #English最小值  
+
 
 name=df.num
 students_scores=df.Math+df.Python+df.English #学生总成绩     
